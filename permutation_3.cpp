@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void helper(vector<int> a, vector<vector<int>> ans, int idx)
+void helper(vector<int> a, vector<vector<int>> &ans, int idx)
 {
     if (idx == a.size())
     {
